@@ -8,9 +8,10 @@ namespace ControleEstoque.Web.Controllers
 {
     public class ContaController : Controller
     {
-        
-        public ActionResult Login()
+        [Authorize]
+        public ActionResult Login(string returnUrl)
         {
+            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
     }
