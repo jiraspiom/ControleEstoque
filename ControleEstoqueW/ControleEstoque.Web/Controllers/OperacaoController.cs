@@ -12,7 +12,7 @@ namespace ControleEstoque.Web.Controllers
         public ActionResult Index()
         {
             return View();
-        }
+        }   
 
         public ActionResult EntradaEstoque()
         {

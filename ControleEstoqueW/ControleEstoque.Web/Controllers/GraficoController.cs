@@ -13,5 +13,17 @@ namespace ControleEstoque.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult PerdaMes()
+        {
+            return View();
+        }
+
+        public ActionResult EntradaSaidaMes()
+        {
+            return View();
+        }
+
+
     }
 }
