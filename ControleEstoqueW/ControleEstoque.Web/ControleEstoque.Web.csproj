@@ -212,11 +212,12 @@
     <Content Include="Views\Operacao\SaidaEstoque.cshtml" />
     <Content Include="Views\Operacao\LancPerdaProduto.cshtml" />
     <Content Include="Views\Operacao\Inventario.cshtml" />
+    <Content Include="Views\Relatorio\PosicaoEstoque.cshtml" />
+    <Content Include="Views\Relatorio\Ressuprimento.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Relatorio\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
