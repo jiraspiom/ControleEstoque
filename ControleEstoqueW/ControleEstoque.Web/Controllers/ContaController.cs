@@ -9,13 +9,14 @@ namespace ControleEstoque.Web.Controllers
 {
     public class ContaController : Controller
     {
-        [Authorize]
+        [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
             return View();
         }
-
+        [HttpPost]
+        [AllowAnonymous]
         public ActionResult Login(LoginViewModel login, string returnUrl)
         {
             if (!ModelState.IsValid)
