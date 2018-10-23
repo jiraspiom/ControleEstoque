@@ -23,7 +23,7 @@
                 <div class="form-group">
                     @Html.LabelFor(m => m.Senha, new { @class = "form-label col-md-2" })
                     <div class="col-lg-10">
-                        @Html.TextBoxFor(m => m.Senha, new { @class = "form-control" })
+                        @Html.PasswordFor(m => m.Senha, new { @class = "form-control" })
                     </div>
                 </div>
 
@@ -36,10 +36,9 @@
 
                 <div class="form-group">
                     <div class="col-lg-10 col-ml-offset-2">
-                        <input type="submit" class="btn btn-success" value="Entrar" /> 
+                        <input type="submit" class="btn btn-success" value="Entrar" />
                     </div>
                 </div>
-
 
             }
         </section>
