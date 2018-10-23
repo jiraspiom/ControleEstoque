@@ -195,11 +195,21 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Sobre.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Cadastro\GrupoProduto.cshtml" />
+    <Content Include="Views\Cadastro\MarcaProduto.cshtml" />
+    <Content Include="Views\Cadastro\LocalProduto.cshtml" />
+    <Content Include="Views\Cadastro\UnidadeMedia.cshtml" />
+    <Content Include="Views\Cadastro\Produto.cshtml" />
+    <Content Include="Views\Cadastro\Pais.cshtml" />
+    <Content Include="Views\Cadastro\Estado.cshtml" />
+    <Content Include="Views\Cadastro\Cidade.cshtml" />
+    <Content Include="Views\Cadastro\Fornecedor.cshtml" />
+    <Content Include="Views\Cadastro\PerfilUsuario.cshtml" />
+    <Content Include="Views\Cadastro\Usuario.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Cadastro\" />
     <Folder Include="Views\Grafico\" />
     <Folder Include="Views\Operacao\" />
     <Folder Include="Views\Relatorio\" />
