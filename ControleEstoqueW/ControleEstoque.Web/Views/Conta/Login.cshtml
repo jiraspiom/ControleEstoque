@@ -1,4 +1,4 @@
-﻿
+﻿@model ControleEstoque.Web.Models.LoginViewModel
 @{
     ViewBag.Title = "Login";
 }
@@ -29,7 +29,7 @@
 
                 <div class="form-group">
                     <div class="col-lg-10 col-ml-offset-2">
-                        @Html.CheckBox(m => m.LembraMe)
+                        @Html.CheckBoxFor(m => m.LembrarMe)
                         @Html.LabelFor(m => m.LembrarMe)
                     </div>
                 </div>
