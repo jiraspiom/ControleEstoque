@@ -14,9 +14,7 @@ namespace ControleEstoque.Web.Controllers
         }
 
         public ActionResult Sobre()
-        {
-            ViewBag.Message = "Your application description page.";
-
+        {          
             return View();
         }
 
