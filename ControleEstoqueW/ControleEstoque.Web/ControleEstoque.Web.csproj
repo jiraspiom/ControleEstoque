@@ -206,11 +206,12 @@
     <Content Include="Views\Cadastro\Fornecedor.cshtml" />
     <Content Include="Views\Cadastro\PerfilUsuario.cshtml" />
     <Content Include="Views\Cadastro\Usuario.cshtml" />
+    <Content Include="Views\Grafico\PerdaMes.cshtml" />
+    <Content Include="Views\Grafico\EntradaSaidaMes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Grafico\" />
     <Folder Include="Views\Operacao\" />
     <Folder Include="Views\Relatorio\" />
   </ItemGroup>
